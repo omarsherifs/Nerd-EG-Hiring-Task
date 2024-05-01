@@ -40,7 +40,7 @@ class RecipesModel extends RecipesEntity {
               ),
         carbos: json['carbos'] as String?,
         fibers: json['fibers'] as String?,
-        rating: json['rating'] as double?,
+        rating: json['rating'] as num?,
         country: json['country'] as String?,
         ratings: json['ratings'] as int?,
         calories: json['calories'] as String?,

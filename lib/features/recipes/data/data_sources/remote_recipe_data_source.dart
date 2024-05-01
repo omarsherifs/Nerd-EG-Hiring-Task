@@ -21,8 +21,8 @@ class RemoteRecipeDataSource implements BaseRecipeDataSource {
     final recipes = <RecipesModel>[];
     final response = await ApiCaller().getData(NetworkConstants.recipesPath);
     final data = response.data;
-    data.forEach((element) {
-      recipes.add(RecipesModel.fromJson(data as Map<String, dynamic>));
+    (data as List).forEach((element) {
+      recipes.add(RecipesModel.fromJson(element as Map<String, dynamic>));
     });
     return recipes;
   }

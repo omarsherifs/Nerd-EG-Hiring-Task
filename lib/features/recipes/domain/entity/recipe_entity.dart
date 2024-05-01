@@ -34,7 +34,7 @@ class RecipesEntity extends Equatable {
   final List<String> weeks;
   final String? carbos;
   final String? fibers;
-  final double? rating;
+  final num? rating;
   final String? country;
   final int? ratings;
   final String? calories;
