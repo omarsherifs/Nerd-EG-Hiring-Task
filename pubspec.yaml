@@ -1,0 +1,42 @@
+name: nerd_eg_hiring_task
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc: ^8.1.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.0
+
+dev_dependencies:
+  bloc_test: ^9.1.4
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/recipe_book.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/recipe_book.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FC4100"
