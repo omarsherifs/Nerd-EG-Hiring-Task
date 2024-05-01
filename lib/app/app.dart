@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nerd_eg_hiring_task/app/features/auth/views/sign_in_view.dart';
+import 'package:nerd_eg_hiring_task/features/auth/views/sign_in_view.dart';
 import 'package:nerd_eg_hiring_task/l10n/l10n.dart';
 
 class App extends StatelessWidget {
